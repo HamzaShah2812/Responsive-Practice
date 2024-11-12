@@ -1,0 +1,2358 @@
+*{
+    font-family: montserrat;
+}
+
+/* This is header navigation bar styling */
+header{
+    background: url(img/header\ background.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100vmax;
+    height: 70vmax;
+    margin: -8px -8px 0 -8px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 1vmax 10vmax 0 2vmax;
+    font-weight: 700;
+    font-size: 1.5vmax;
+    color: rgba(236, 236, 236, 1);
+}
+
+.menu{
+    margin: 1vmax 0 0 0;
+    display: flex;
+    gap: 21px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.875vmax;
+    font-weight: 700;
+}
+
+.menu a:hover{
+    color:  rgba(255, 101, 81, 1);
+}
+
+.nav-button{
+    margin: 1vmax 5vmax 0 30vmax;
+    display: flex;
+    gap: 40px;
+}
+
+.login{
+    background: none;
+    border: none;
+    color:rgba(255, 255, 255, 1);
+    font-size: 0.875vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login:hover{
+    color:  rgba(255, 101, 81, 1);
+}
+
+.login:active{
+    font-size: 1.2vmax;
+    color: rgba(255, 255, 255, 1);
+}
+
+.joinus{
+    background-color: rgba(255, 101, 81, 1);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 25px;
+    font-size: 0.875vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.joinus:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.joinus:active{
+    background-color: transparent;
+    border: none;
+    color:  rgba(255, 101, 81, 1);
+    box-shadow: none;
+    transition: 0.3s ease;;
+}
+
+.arrow{
+    padding-left: 8px;
+}
+
+/* This is header Text content styling */
+
+.Header-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11.5vmax 0 0 0;
+}
+
+.Header-text p{
+    color: rgba(255, 198, 82, 1);
+    font-size: 1vmax;
+    font-weight: 700;
+}
+
+.Header-text h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 4vmax;
+    font-weight: 700;
+}
+
+.Header-text h4{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.Header-text button{
+    background-color: rgba(255, 101, 81, 1);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 35px;
+    margin: 25px 0;
+    font-size: 0.875vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Header-text button:hover{
+    font-size: 1.2vmax;
+}
+
+
+/* This is header Cards content styling */
+
+.Header-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16vmax 11vmax;
+    height: 28vmax;
+}
+
+.card1{
+    background-color: rgba(255, 255, 255, 1);
+    width: 15vmax;
+    height: 14vmax;
+    padding: 2vmax 2.5vmax;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card1 p{
+    font-size: 0.88vmax;
+}
+
+.card1 h3{
+    font-size: 1.1vmax;
+}
+
+.card1:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card1 img{
+    width: 3.5vmax;
+    
+}
+
+.rectangle{
+    width: 3.5vmax;
+    height: 0.1vmax;
+    background-color: rgba(231, 64, 64, 1);
+}
+
+.card2{
+    background-color: rgba(255, 255, 255, 1);
+    width: 15vmax;
+    height: 14vmax;
+    padding: 2vmax 2.5vmax;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card2 p{
+    font-size: 0.88vmax;
+}
+
+.card2 h3{
+    font-size: 1.1vmax;
+}
+
+.card2:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card2 img{
+    width: 3.5vmax;
+}
+
+
+.card3{
+    background-color: rgba(255, 101, 81, 1);
+    width: 15vmax;
+    height: 14vmax;
+    padding: 2vmax 2.5vmax;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card3 p{
+    font-size: 0.88vmax;
+}
+
+.card3 h3{
+    font-size: 1.1vmax;
+}
+
+.card3:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card3 img{
+    width: 3.5vmax;
+}
+
+.rectangle3{
+    width: 3.5vmax;
+    height: 0.1vmax;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* This is 1st Section Text Styling */
+
+.section-one-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one{
+    margin-top: 20vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 15vmax;
+    display: flex;
+    flex-direction: row;
+    gap: 15vmax;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle-sections{
+    width: 5.5vmax;
+    height: 0.4vmax;
+    background-color: rgba(231, 64, 64, 1);
+}
+
+.section-one-text h2{
+    font-size: 2vmax;
+    font-weight: 700;
+}
+
+.section-one-text p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+.section-one-text button{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.7vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 2vmax;
+    margin-left: -1.2vmax;
+
+}
+
+.section-one-text button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+    margin-left: 0.08vmax;
+}
+
+/* This is 1st Section Image Styling */
+
+.section-one-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-image img{
+    width: 30vmax;
+    height: 25vmax ;
+}
+
+/* This is 2nd Section Text Styling */
+
+.section-two-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two{
+    margin-top: 10vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+    display: flex;
+    flex-direction: row;
+    gap: 15vmax;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two-text button{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.7vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 2vmax;
+    margin-left: -1.2vmax;
+
+}
+
+.section-two-text button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+    margin-left: 0.08vmax;
+}
+
+.section-two-text h2{
+    font-size: 2vmax;
+    font-weight: 700;
+}
+
+.section-two-text p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+/* This is 2nd Section Image Styling */
+
+.section-two-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-image img{
+    width: 30vmax;
+    height: 25vmax ;
+}
+
+/* This is 3rd Heading Section Content Styling */
+
+.section-third-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 45vmax;
+}
+
+.third-tag p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.section-third{
+    margin-top: 15vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-third-text h2{
+    font-size: 2vmax;
+    font-weight: 700;
+}
+
+.section-third-text p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+/* This is 3rd Product cards Section Content Styling */
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    gap: 5.3vmax;
+    margin-top: 10vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+}
+
+/* This is product1 card Content Styling */
+
+.product1{
+    display: flex;
+    flex-direction: column;
+}
+
+.product1-image{
+    display: flex;
+    flex-direction: column;
+    background: url(img/product1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vmax;
+    height: 18vmax;
+}
+
+.product1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.2vmax 1vmax 3vmax 1vmax;
+}
+
+.sale {
+    background-color: rgba(231, 64, 64, 1);
+    margin: 1vmax 11.7vmax 0 1vmax ;
+    padding: 0.2vmax 2.2vmax 0.2vmax 0.5vmax;
+    border-radius: 3px;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12.5vmax;
+    gap: 0.7vmax;
+}
+
+.icons img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vmax;
+}
+
+.books p{
+    font-size: 0.85vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 51, 93, 1);
+    width: 3.3vmax;
+    height: 1.8vmax;
+    border-radius: 2vmax;
+}
+
+.rating p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7vmax;
+}
+
+.rating span{
+    color: rgba(255, 206, 49, 1);
+}
+
+.product1-text h5{
+    font-size: 1vmax;
+    margin: 1vmax 0;
+}
+
+.info p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+}
+
+.sold{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+    margin: -1vmax 0 0 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 700;
+}
+
+.price .inactive{
+    color: rgba(189, 189, 189, 1);
+}
+
+.price .active{
+    color: rgba(36, 53, 161, 1);
+}
+
+.product1-text .learn button{
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color:rgba(255, 101, 81, 1);
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product1-text .learn button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+}
+
+
+/* This is product2 card Content Styling */
+
+.product2-image{
+    display: flex;
+    flex-direction: column;
+    background: url(img/product2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vmax;
+    height: 18vmax;
+}
+
+.product2-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.2vmax 1vmax 3vmax 1vmax;
+}
+
+
+.sale {
+    background-color: rgba(231, 64, 64, 1);
+    margin: 1vmax 11.7vmax 0 1vmax ;
+    padding: 0.2vmax 2.2vmax 0.2vmax 0.5vmax;
+    border-radius: 3px;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12.5vmax;
+    gap: 0.7vmax;
+}
+
+.icons img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vmax;
+}
+
+.books p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 51, 93, 1);
+    width: 3.3vmax;
+    height: 1.8vmax;
+    border-radius: 2vmax;
+}
+
+.rating p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7vmax;
+}
+
+.rating span{
+    color: rgba(255, 206, 49, 1);
+}
+
+.product2-text h5{
+    font-size: 1vmax;
+    margin: 1vmax 0;
+}
+
+.info p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+}
+
+.sold{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+    margin: -1vmax 0 0 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 700;
+}
+
+.price .inactive{
+    color: rgba(189, 189, 189, 1);
+}
+
+.price .active{
+    color: rgba(36, 53, 161, 1);
+}
+
+.product2-text .learn button{
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color:rgba(255, 101, 81, 1);
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product2-text .learn button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+}
+
+/* This is product3 card Content Styling */
+
+.product3-image{
+    display: flex;
+    flex-direction: column;
+    background: url(img/product3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vmax;
+    height: 18vmax;
+}
+
+.product3-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.2vmax 1vmax 3vmax 1vmax;
+}
+
+.sale {
+    background-color: rgba(231, 64, 64, 1);
+    margin: 1vmax 11.7vmax 0 1vmax ;
+    padding: 0.2vmax 2.2vmax 0.2vmax 0.5vmax;
+    border-radius: 3px;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12.5vmax;
+    gap: 0.7vmax;
+}
+
+.icons img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vmax;
+}
+
+.books p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 51, 93, 1);
+    width: 3.3vmax;
+    height: 1.8vmax;
+    border-radius: 2vmax;
+}
+
+.rating p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7vmax;
+}
+
+.rating span{
+    color: rgba(255, 206, 49, 1);
+}
+
+.product3-text h5{
+    font-size: 1vmax;
+    margin: 1vmax 0;
+}
+
+.info p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+}
+
+.sold{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+    margin: -1vmax 0 0 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 700;
+}
+
+.price .inactive{
+    color: rgba(189, 189, 189, 1);
+}
+
+.price .active{
+    color: rgba(36, 53, 161, 1);
+}
+
+.product3-text .learn button{
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color:rgba(255, 101, 81, 1);
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product3-text .learn button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+}
+
+ /* This is product4 card Content Styling */
+
+.product4-image{
+    display: flex;
+    flex-direction: column;
+    background: url(img/product4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vmax;
+    height: 18vmax;
+}
+
+.product4-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0.2vmax 1vmax 3vmax 1vmax;
+}
+
+.sale {
+    background-color: rgba(231, 64, 64, 1);
+    margin: 1vmax 11.7vmax 0 1vmax ;
+    padding: 0.2vmax 2.2vmax 0.2vmax 0.5vmax;
+    border-radius: 3px;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12.5vmax;
+    gap: 0.7vmax;
+}
+
+.icons img{
+    width: 2vmax;
+    height: 2vmax;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.books p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(38, 51, 93, 1);
+    width: 3.3vmax;
+    height: 1.8vmax;
+    border-radius: 2vmax;
+}
+
+.rating p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.7vmax;
+}
+
+.rating span{
+    color: rgba(255, 206, 49, 1);
+}
+
+.product4-text h5{
+    font-size: 1vmax;
+    margin: 1vmax 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+}
+
+.sold{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+    margin: -1vmax 0 0 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vmax;
+    font-size: 0.9vmax;
+    font-weight: 700;
+}
+
+.price .inactive{
+    color: rgba(189, 189, 189, 1);
+}
+
+.price .active{
+    color: rgba(36, 53, 161, 1);
+}
+
+.product4-text .learn button{
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color:rgba(255, 101, 81, 1);
+    border-radius: 50px;
+    color: rgba(255, 101, 81, 1);
+    padding: 0.8vmax 1.2vmax;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product4-text .learn button:hover{
+    background-color: rgba(255, 101, 81, 1);
+    color: white;
+}
+
+/* This is 4th Heading Section Content Styling */
+
+.section-fourth-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 45vmax;
+    padding-top: 10vmax;
+}
+
+.fourth-tag p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.section-fourth-background{
+    background-color: rgba(38, 51, 93, 1);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.section-fourth{
+    margin-top: 15vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-fourth-text h2{
+    font-size: 2vmax;
+    font-weight: 700;
+    color: white;
+}
+
+.section-fourth-text p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+    color: white;
+}
+
+/* This is 4th subscription cards Section Content Styling */
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    gap: 5vmax;
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+} 
+
+.section-fourth picture{
+    width: 6vmax;
+    height: 6vmax;
+    position: absolute;
+    margin-top: 30vmax;
+    margin-left: 22vmax;
+}
+/* Subscription Card one */
+
+.subscription-card-one{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax 2vmax;
+}
+
+.subscription-icon img{
+    width: 5vmax;
+}
+
+.subscription-card-text h3{
+    font-size: 1.5vmax;
+    font-weight: 700;
+}
+
+.subscription-card-text p{
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+}
+
+.subscription-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription-price h2{
+    font-size: 2.3vmax;
+    color: rgba(255, 101, 81, 1);
+    margin-bottom: 0;
+}
+
+.subscription-price h6{
+    font-size: 0.7vmax;
+    color: rgba(142, 194, 242, 1);
+    margin-top: 0.1vmax;
+}
+
+.subscription-info{
+    font-size: 0.7vmax;
+    color: rgba(115, 115, 115, 1);
+}
+
+.subscription-try-for-free{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subscription-try-for-free button{
+    background-color: rgba(255, 101, 81, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vmax 6.5vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.8vmax;
+    font-weight: 700;
+}
+
+.subscription-options{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vmax;
+    margin-top: 0.8vmax;
+    margin-bottom: 0.8vmax;
+}
+
+.option-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.option-one h6{
+    font-size: 1vmax;
+    margin: 0;
+}
+
+.subscription-options-one-icon{
+    background-color: rgba(45, 192, 113, 1);
+    padding: 0.7vmax 0.8vmax;
+    border-radius: 50%;
+    color: white;
+}
+
+.option-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.option-two h6{
+    font-size: 1vmax;
+    margin: 0;
+}
+
+.subscription-options-two-icon{
+    background-color: rgba(45, 192, 113, 1);
+    padding: 0.7vmax 0.8vmax;
+    border-radius: 50%;
+    color: white;
+}
+
+.option-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.option-three h6{
+    font-size: 1vmax;
+    margin: 0;
+}
+
+.subscription-options-three-icon{
+    background-color: rgba(45, 192, 113, 1);
+    padding: 0.7vmax 0.8vmax;
+    border-radius: 50%;
+    color: white;
+}
+
+.option-four{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.option-four h6{
+    font-size: 1vmax;
+    margin: 0;
+}
+
+.subscription-options-four-icon{
+    background-color: rgba(189, 189, 189, 1);
+    padding: 0.7vmax 0.8vmax;
+    border-radius: 50%;
+    color: white;
+}
+
+.option-five{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmax;
+}
+
+.option-five h6{
+    font-size: 1vmax;
+    margin: 0;
+}
+
+.subscription-options-five-icon{
+    background-color: rgba(189, 189, 189, 1);
+    padding: 0.7vmax 0.8vmax;
+    border-radius: 50%;
+    color: white;
+}
+
+/* Subscription Card two */
+
+.subscription-card-two{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax 2vmax;
+}
+
+/* Subscription Card three */
+
+.subscription-card-three{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax 2vmax;
+}
+
+/* This is 5th Testimonial Section Content Styling */
+
+
+.section-fifth-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 45vmax;
+}
+
+.fifth-tag p{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    color: rgba(255, 101, 81, 1);
+}
+
+.section-fifth{
+    margin-top: 15vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-fifth-text h2{
+    font-size: 2vmax;
+    font-weight: 700;
+}
+
+.section-fifth-text p{
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+/* This is 5th Testimonials one and two Content Styling */
+
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    gap: 5vmax;
+    margin: 10vmax 5vmax;
+}
+
+.testimonial-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-one img{
+    width: 6.5vmax;
+    border-radius: 50%;
+}
+
+.testimonial-one p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+.testimonial-one .star-review {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3vmax;
+}
+
+.testimonial-one .star-review p{
+    font-size: 1.5vmax;
+    margin: 0;
+    color: rgba(243, 205, 3, 1);
+}
+
+.testimonial-one .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-one .name h5{
+    font-size: 1vmax;
+    margin-bottom: 0;
+    color: rgba(37, 43, 66, 1);
+}
+
+.testimonial-one .name h6{
+    margin-top: 0.8vmax;
+    font-size: 0.8vmax;
+    color: rgba(115, 115, 115, 1);
+}
+
+.testimonial-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-two img{ 
+    width: 6.5vmax;
+    border-radius: 50%;
+}
+
+.testimonial-two p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.9vmax;
+    font-weight: 400;
+}
+
+.testimonial-two .star-review {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3vmax;
+}
+
+.testimonial-two .star-review p{
+    font-size: 1.5vmax;
+    margin: 0;
+    color: rgba(243, 205, 3, 1);
+}
+
+.testimonial-two .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-two .name h5{
+    font-size: 1vmax;
+    margin-bottom: 0;
+    color: rgba(37, 43, 66, 1);
+}
+
+.testimonial-two .name h6{
+    margin-top: 0.8vmax;
+    font-size: 0.8vmax;
+    color: rgba(115, 115, 115, 1);
+}
+
+/* This is 6th Newsletter Content Styling */
+
+.section-sixth{
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    margin-bottom: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-sixth-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-sixth-text h6{
+    color: rgba(255, 101, 81, 1);
+    font-size: 0.85vmax;
+}
+
+.section-sixth-text h2{
+    color: rgba(37, 43, 66, 1);
+    font-size: 2.3vmax;
+    margin-top: 0;
+}
+
+.section-sixth-text p{
+    color: rgba(115, 115, 115, 1);
+    font-size: 0.85vmax;
+    margin-top: 0;
+}
+
+/* This is 6th Newsletter subscribe input Styling */
+
+.section-sixth-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vmax;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgba(230, 230, 230, 1);
+}
+
+.section-sixth-email input{
+    width: 35vmax;
+    height: 2.5vmax;
+    border: none;
+    color: rgba(115, 115, 115, 1);
+    transition: 0.3s;
+}
+
+.section-sixth-email input::placeholder{
+   padding-left: 1vmax;
+}
+
+.section-sixth-email button{
+    height: 2.8vmax;
+    border: none;
+    background-color: rgba(255, 101, 81, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size:0.8vmax;
+    font-weight: 400;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* This is footer content Styling */
+
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+    justify-content: center;
+}
+
+.footer-content p{
+    font-size: 0.7vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+}   
+
+.legal{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+}
+
+.resource{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch h6{
+    font-size: 0.7vmax;
+    color: rgba(115, 115, 115, 1);
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+}
+
+.number p{
+   font-size: 2vmax;
+   margin-top: 0;
+   margin-bottom: 0;
+   color: rgba(255, 101, 81, 1);
+}
+
+.number h6{
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .last-section{
+    background-color: rgba(250, 250, 250, 1);
+ }
+
+ .last-section-content{
+    display: flex;
+    flex-direction: row;
+    gap: 40vmax;
+    margin-left: 11.5vmax;
+    margin-right: 11.5vmax;
+    justify-content: center;
+    padding-top: 1.5vmax;
+    padding-bottom: 1.5vmax;
+ }
+
+ .last-section-text h6{
+    margin: 0;
+    font-size: 0.8vmax;
+    font-weight: 700;
+    color: rgba(115, 115, 115, 1);
+ }
+
+ .last-section-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 1.5vmax;
+    font-size: 1.2vmax;
+    color: rgba(255, 101, 81, 1);
+ }
+
+ .hamburger{
+    display: none;
+ }
+
+
+ @media (max-width: 480px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 65vmax;
+        margin-left: 0;
+    }
+    .menu, .nav-button{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header{
+        background: url(img/header\ background.png);    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.45);
+        width: auto;
+        height: 50vmax;
+        margin: 0;
+        margin-top: -0.9vmax;
+        margin-left: -0.9vmax;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25vmax;
+        padding-top: 1vmax;
+    }
+
+    .Header-text p{
+        color: rgba(255, 198, 82, 1);
+        font-size: 1vmax;
+        font-weight: 700;
+    }
+
+    .Header-text h1{
+        color: rgba(255, 255, 255, 1);
+        font-size: 3vmax;
+        font-weight: 700;
+    }
+
+    .Header-text h4{
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.2vmax;
+        font-weight: 400;
+    }
+
+    .Header-text button{
+        background-color: rgba(255, 101, 81, 1);
+        border: none;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 1);
+        padding: 10px 30px;
+        margin: 25px 0;
+        font-size: 1vmax;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .Header-cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 5vmax 11vmax;
+        height: 28vmax;
+    }
+
+    .section-one-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-one{
+        margin-top: 40vmax;
+        margin-left: 10vmax;
+        margin-right: 8vmax;
+        margin-bottom: 15vmax;
+        display: flex;
+        flex-direction: column;
+        gap: 15vmax;
+        justify-content: center;
+        align-items: center;
+    }
+    .card3{
+        background-color: rgba(255, 101, 81, 1);
+        width: 15vmax;
+        height: 14vmax;
+        padding: 2vmax 2.5vmax;
+        margin-top: 2vmax;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .section-two-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-two{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        gap: 15vmax;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .section-third-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .third-tag p{
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .section-third{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .books{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vmax;
+    }
+    
+    .books p{
+        font-size: 0.85vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .rating{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(38, 51, 93, 1);
+        width: 3.3vmax;
+        height: 1.8vmax;
+        border-radius: 2vmax;
+    }
+    
+    .rating p{
+        color: rgba(255, 255, 255, 1);
+        font-size: 0.7vmax;
+    }
+    
+    .rating span{
+        color: rgba(255, 206, 49, 1);
+    }
+    
+    .product1-text h5{
+        font-size: 1vmax;
+        margin: 1vmax 0;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info p{
+        color: rgba(115, 115, 115, 1);
+        font-size: 0.9vmax;
+    }
+    
+    .sold{
+        display: flex;
+        flex-direction: row;
+        gap: 1vmax;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(115, 115, 115, 1);
+        margin: -1vmax 0 0 0;
+    }
+    
+    .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5vmax;
+        font-size: 0.9vmax;
+        font-weight: 700;
+    }
+    
+    .price .inactive{
+        color: rgba(189, 189, 189, 1);
+    }
+    
+    .price .active{
+        color: rgba(36, 53, 161, 1);
+    }
+
+    .learn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .product1-text .learn button{
+        background-color: transparent;
+        border: solid;
+        border-width: 2px;
+        border-color:rgba(255, 101, 81, 1);
+        border-radius: 50px;
+        color: rgba(255, 101, 81, 1);
+        padding: 0.8vmax 1.2vmax;
+        font-size: 0.8vmax;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .product1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .section-third-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+    }
+    
+    .section-third-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+
+    .courses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10vmax;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10vmax;
+    }
+
+    .section-fourth-background{
+    background-color: rgba(38, 51, 93, 1);
+    width: auto;
+    margin: 0;
+    margin-left: -0.9vmax;
+    }
+
+
+    .section-fourth-text-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        padding-top: 10vmax;
+    }
+
+    .section-fourth{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-fourth-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+        color: white;
+    }
+
+    .section-fourth-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+        color: white;
+    }
+
+    /* This is 4th subscription cards Section Content Styling */
+
+    .subscription{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vmax;
+        margin-right: 0;
+        margin-top: 10vmax;
+        margin-bottom: 10vmax;
+    } 
+
+    .section-fourth picture{
+        display: none;
+    }
+    .section-fifth-text-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    
+    .fifth-tag p{
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .section-fifth{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .section-fifth-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+    }
+    
+    .section-fifth-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        gap: 5vmax;
+        margin: 10vmax 5vmax;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5vmax;
+        margin-top: 10vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        padding-top: 3vmax;
+        padding-bottom: 3vmax;
+        justify-content: center;
+    }
+    .last-section-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        justify-content: center;
+        padding-top: 1.5vmax;
+        padding-bottom: 1.5vmax;
+     }
+
+ }
+
+ @media (max-width: 640px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 80vmax;
+        margin-left: 0;
+    }
+    .menu, .nav-button{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header{
+        background: url(img/header\ background.png);    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.45);
+        width: auto;
+        height: 50vmax;
+        margin: 0;
+        margin-top: -0.9vmax;
+        margin-left: -0.9vmax;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25vmax;
+        padding-top: 1vmax;
+    }
+
+    .Header-text p{
+        color: rgba(255, 198, 82, 1);
+        font-size: 1vmax;
+        font-weight: 700;
+    }
+
+    .Header-text h1{
+        color: rgba(255, 255, 255, 1);
+        font-size: 3vmax;
+        font-weight: 700;
+    }
+
+    .Header-text h4{
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.2vmax;
+        font-weight: 400;
+    }
+
+    .Header-text button{
+        background-color: rgba(255, 101, 81, 1);
+        border: none;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 1);
+        padding: 10px 30px;
+        margin: 25px 0;
+        font-size: 1vmax;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .Header-cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 5vmax 11vmax;
+        height: 28vmax;
+    }
+
+    .section-one-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-one{
+        margin-top: 50vmax;
+        margin-left: 10vmax;
+        margin-right: 8vmax;
+        margin-bottom: 15vmax;
+        display: flex;
+        flex-direction: column;
+        gap: 15vmax;
+        justify-content: center;
+        align-items: center;
+    }
+    .card3{
+        background-color: rgba(255, 101, 81, 1);
+        width: 15vmax;
+        height: 14vmax;
+        padding: 2vmax 2.5vmax;
+        margin-top: 2vmax;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .section-two-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-two{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        gap: 15vmax;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .section-third-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .third-tag p{
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .section-third{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .books{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vmax;
+    }
+    
+    .books p{
+        font-size: 0.85vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .rating{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(38, 51, 93, 1);
+        width: 3.3vmax;
+        height: 1.8vmax;
+        border-radius: 2vmax;
+    }
+    
+    .rating p{
+        color: rgba(255, 255, 255, 1);
+        font-size: 0.7vmax;
+    }
+    
+    .rating span{
+        color: rgba(255, 206, 49, 1);
+    }
+    
+    .product1-text h5{
+        font-size: 1vmax;
+        margin: 1vmax 0;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info p{
+        color: rgba(115, 115, 115, 1);
+        font-size: 0.9vmax;
+    }
+    
+    .sold{
+        display: flex;
+        flex-direction: row;
+        gap: 1vmax;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(115, 115, 115, 1);
+        margin: -1vmax 0 0 0;
+    }
+    
+    .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5vmax;
+        font-size: 0.9vmax;
+        font-weight: 700;
+    }
+    
+    .price .inactive{
+        color: rgba(189, 189, 189, 1);
+    }
+    
+    .price .active{
+        color: rgba(36, 53, 161, 1);
+    }
+
+    .learn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .product1-text .learn button{
+        background-color: transparent;
+        border: solid;
+        border-width: 2px;
+        border-color:rgba(255, 101, 81, 1);
+        border-radius: 50px;
+        color: rgba(255, 101, 81, 1);
+        padding: 0.8vmax 1.2vmax;
+        font-size: 0.8vmax;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .product1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .product4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15vmax;
+    }
+    .section-third-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+    }
+    
+    .section-third-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+
+    .courses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10vmax;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10vmax;
+    }
+
+    .section-fourth-background{
+    background-color: rgba(38, 51, 93, 1);
+    width: auto;
+    margin: 0;
+    margin-left: -0.9vmax;
+    }
+
+
+    .section-fourth-text-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        padding-top: 10vmax;
+    }
+
+    .section-fourth{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-fourth-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+        color: white;
+    }
+
+    .section-fourth-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+        color: white;
+    }
+
+    /* This is 4th subscription cards Section Content Styling */
+
+    .subscription{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vmax;
+        margin-right: 0;
+        margin-top: 10vmax;
+        margin-bottom: 10vmax;
+    } 
+
+    .section-fourth picture{
+        display: none;
+    }
+    .section-fifth-text-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    
+    .fifth-tag p{
+        font-size: 0.9vmax;
+        font-weight: 700;
+        color: rgba(255, 101, 81, 1);
+    }
+    
+    .section-fifth{
+        margin-top: 15vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        margin-bottom: 10vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .section-fifth-text h2{
+        font-size: 2vmax;
+        font-weight: 700;
+    }
+    
+    .section-fifth-text p{
+        font-size: 0.9vmax;
+        font-weight: 400;
+    }
+
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        gap: 5vmax;
+        margin: 10vmax 5vmax;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5vmax;
+        margin-top: 10vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        padding-top: 3vmax;
+        padding-bottom: 3vmax;
+        justify-content: center;
+    }
+    .last-section-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6vmax;
+        margin-left: 11.5vmax;
+        margin-right: 11.5vmax;
+        justify-content: center;
+        padding-top: 1.5vmax;
+        padding-bottom: 1.5vmax;
+     }
+
+ }
